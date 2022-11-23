@@ -1,118 +1,234 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body class="p-3 mb-2 bg-secondary text-white">
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>SM.home.com</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 mb-2 bg-secondary text-white">
+  <header>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <img src="https://play-lh.googleusercontent.com/wWbtRw3pl-hgfr_cei7EZ8DTUK6cF3T-Ot6k6-1XGi4XQkqF6Zx6C5VjnGfLH5UNJKc=s48-rw" class="d-block w-10">
-        <a class="navbar-brand" href="https://play.google.com/store/apps/details?id=com.GlobalSoFunny.Sausage&gl=US&pli=1">SAUSAGE MAN</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img
+          src="https://play-lh.googleusercontent.com/wWbtRw3pl-hgfr_cei7EZ8DTUK6cF3T-Ot6k6-1XGi4XQkqF6Zx6C5VjnGfLH5UNJKc=s48-rw"
+          class="d-block w-10">
+        <a class="navbar-brand"
+          href="https://play.google.com/store/apps/details?id=com.GlobalSoFunny.Sausage&gl=US&pli=1">SAUSAGE MAN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sobre.html">Sobre</a>
+              <a class="nav-link" href="index.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="1.html">Noticias</a>
+              <a class="nav-link" href="index.html">Novidades</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="2.html">Pricing</a>
+              <a class="nav-link" href="index.html">Opnião</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="suporte.html">Suporte</a>
+              <a class="nav-link" href="index.html">Suporte</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+  </header>
+  <br>
+
+  <main>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://play-lh.googleusercontent.com/VmInr_0_3S9Rq3IXdeZZ7Lf-I-30pxic1FHveThJbWUyFnq2yM93Wrdh4mNQaShFVw=w2560-h1440-rw"
+            class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://play-lh.googleusercontent.com/ScIwgKFYuUBwH6kQxGdsuY32EcnLyEoqcZnXwbuHR6yzqcXpbUOYC1ye5Qrqr03E-dEb=w2560-h1440-rw"
+            class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://play-lh.googleusercontent.com/dkAKvewccqqEHKs20Q3SUy-L_B-fIsaTJtEIXQ3ecFheV0wVGYAX9SUoNXSsfUlaKVU7=w2560-h1440-rw"
+            class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://play-lh.googleusercontent.com/9tcQuffB9hgKs2qXRRPCl1wsjf_dnkbM3q4sX1P_Wvb7Sh1GFrKxFItt9bt2bSmZ21w=w2560-h1440-rw"
+            class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://play-lh.googleusercontent.com/5hTK7ETFgbaUhQLOQggnhyb9H7qxiMGLUu4K1-jsPRMrZbDEU6mcAfj47nHUS456M-va=w2560-h1440-rw"
+            class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr>
     <br>
 
-   <main>
-    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://play-lh.googleusercontent.com/VmInr_0_3S9Rq3IXdeZZ7Lf-I-30pxic1FHveThJbWUyFnq2yM93Wrdh4mNQaShFVw=w2560-h1440-rw" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="https://play-lh.googleusercontent.com/ScIwgKFYuUBwH6kQxGdsuY32EcnLyEoqcZnXwbuHR6yzqcXpbUOYC1ye5Qrqr03E-dEb=w2560-h1440-rw" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="https://play-lh.googleusercontent.com/dkAKvewccqqEHKs20Q3SUy-L_B-fIsaTJtEIXQ3ecFheV0wVGYAX9SUoNXSsfUlaKVU7=w2560-h1440-rw" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="https://play-lh.googleusercontent.com/9tcQuffB9hgKs2qXRRPCl1wsjf_dnkbM3q4sX1P_Wvb7Sh1GFrKxFItt9bt2bSmZ21w=w2560-h1440-rw" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="https://play-lh.googleusercontent.com/5hTK7ETFgbaUhQLOQggnhyb9H7qxiMGLUu4K1-jsPRMrZbDEU6mcAfj47nHUS456M-va=w2560-h1440-rw" class="d-block w-100">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <div class="p-3 mb-2 bg-primary text-warning">SOBRE:<h1>SAUSAGE MAN</h1>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/Z_LuEl6scKo" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class=" text-white">
+      Sausage Man é um jogo battle royale de tiro competitivo em estilo cartoon estrelando salsichas como protagonistas.
+      É um jogo que você consegue iniciar facilmente e jogar a qualquer hora e de qualquer lugar. Você assumirá o papel
+      de salsichas fofas e engraçadas e travará batalhas dinâmicas e fantasiosas.
+    </div>
+    </div>
+    <div class="row">
+      <div class="text-white">
+        [Batalhas emocionantes e itens de fortalecimento com poderes únicos]
+        Seja recebido com um sistema de batalha fluído e intenso, com trajetórias balísticas realistas e até um recurso
+        de prender o
+        fôlego no jogo. Enquanto isso, o jogo te fornece Sinalizadores, Máquinas de Ressurreição, Coberturas Táticas e
+        sistemas de
+        Cartão de Identificação que podem pôr à prova a camaradagem e a compreensão mútua entre você e seus
+        companheiros.
       </div>
-      <hr>
-      <br>
-      
-      <div class="p-3 mb-2 bg-primary text-warning">SOBRE:<h1>SAUSAGE MAN</h1></div>
-      <iframe class="rounded mx-auto d-block " src="https://www.youtube.com/embed/Z_LuEl6scKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       <div class=" text-dark">
-        Sausage Man é um jogo battle royale de tiro competitivo em estilo cartoon estrelando salsichas como protagonistas. 
-        É um jogo que você consegue iniciar facilmente e jogar a qualquer hora e de qualquer lugar. Você assumirá o papel 
-        de salsichas fofas e engraçadas e travará batalhas dinâmicas e fantasiosas.
-        </div>
-      </div>
+
       <div class="row">
-        <div class="text-dark">
-          [Batalhas emocionantes e itens de fortalecimento com poderes únicos]
-          Seja recebido com um sistema de batalha fluído e intenso, com trajetórias balísticas realistas e até um recurso de prender o 
-          fôlego no jogo. Enquanto isso, o jogo te fornece Sinalizadores, Máquinas de Ressurreição, Coberturas Táticas e sistemas de 
-          Cartão de Identificação que podem pôr à prova a camaradagem e a compreensão mútua entre você e seus companheiros.
-        </div>
-      </div>
-      <div class="row">
-        <div class="text-dark">
+        <div class="text-white">
           [Jogabilidade relaxante, solte sua imaginação e curta ficar à vontade]
-          Há mais do que apenas combates no campo de batalha: você encontrará fofura e alegria por todo canto. Aqui você pode cantar, saltar 
-          e disparar suas armas numa Bola de Borracha ou usar um Salto Duplo para evitar disparos precisos dos inimigos. Você também pode colocar 
-          uma Bóia Salva-vidas e travar batalhas cara a cara na água com os outros. Quando você cair, você virará uma pequena salsicha birrenta. 
+          Há mais do que apenas combates no campo de batalha: você encontrará fofura e alegria por todo canto. Aqui você
+          pode cantar, saltar
+          e disparar suas armas numa Bola de Borracha ou usar um Salto Duplo para evitar disparos precisos dos inimigos.
+          Você também pode colocar
+          uma Bóia Salva-vidas e travar batalhas cara a cara na água com os outros. Quando você cair, você virará uma
+          pequena salsicha birrenta.
           Você pode levantar os companheiros que sofreram queda com uma ação “Vamos lá”.
         </div>
       </div>
       <div class="row">
-        <div class=" text-dark">
+        <div class=" text-white">
           [Visuais adoravelmente rudimentares, seja a estrela dessa festa alegre]
-          O sistema de visual rudimentar, porém fofo do jogo te ajudará a tornar-se a salsicha mais popular que já existiu. O sistema único de 
-          Cartão de Grupo registra seus dados, aparências e conquistas, mostrando às outras salsichas o quão amável você é. Também te fornece 
-          vários conjuntos de fantasias peculiares como Koi, Cyberpunk e Empregada, e também poses ousadas fofas como assoprando beijos, transformações
-           de garotas mágicas etc. Além disso, você também pode usar Emojis de Bolha como “Hastear Bandeira com Peça Íntima Branca” e “Choramingo 
-           de Injustiça” para interagir com outras salsichas.
+          O sistema de visual rudimentar, porém fofo do jogo te ajudará a tornar-se a salsicha mais popular que já
+          existiu. O sistema único de
+          Cartão de Grupo registra seus dados, aparências e conquistas, mostrando às outras salsichas o quão amável você
+          é. Também te fornece
+          vários conjuntos de fantasias peculiares como Koi, Cyberpunk e Empregada, e também poses ousadas fofas como
+          assoprando beijos, transformações
+          de garotas mágicas etc. Além disso, você também pode usar Emojis de Bolha como “Hastear Bandeira com Peça
+          Íntima Branca” e “Choramingo
+          de Injustiça” para interagir com outras salsichas.
         </div>
       </div>
       <div class="row">
-        <div class="text-dark">
-          Aqui você contará com sua “malandragem” e “fofura” para derrotar centenas de inimigos no campo de batalha e tornar-se o rei da festa!
+        <div class="text-white">
+          Aqui você contará com sua “malandragem” e “fofura” para derrotar centenas de inimigos no campo de batalha e
+          tornar-se o rei da festa!
         </div>
       </div>
-      <a class="btn btn-primary " href="https://play.google.com/store/apps/details?id=com.GlobalSoFunny.Sausage&gl=US">link para download</a>
-      <hr>
-    </main>
-  </body>
+      <div class="card border-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header"><img
+            src="https://www.bignox.com/blog/wp-content/uploads/2021/07/2405202110332870940.jpg" class="d-block w-100">
+        </div>
+        <div class="card-body text-primary">
+          <h5 class="card-title">FAÇA O DOWNLOAD</h5>
+          <p class="card-text"><a class="btn btn-primary "
+              href="https://play.google.com/store/apps/details?id=com.GlobalSoFunny.Sausage&gl=US">link para
+              download</a></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="p-3 mb-2 bg-primary text-warning">
+      <h2>NOVIDADES</h2>
+    </div>
+    <div class="mb-5">
+      <img src="https://thumbs2.imgbox.com/f2/16/7eTV7Nc8_t.png" class="img-fluid" alt="Responsive image">
+      <h2>
+        Lançamento do servidor brasileiro dia 17/11/2022!
+      </h2>
+    </div>
+    <div class="mb-5">
+      <img src="https://thumbs2.imgbox.com/98/9d/Rw4M5BDH_t.png" class="img-fluid" alt="Responsive image">
+      <h2>
+        Durante o evento, compartilhe o link do jogo com seus amigos para ganhar recompensas!
+        o evento dura até o dia 09/12/2022.
+      </h2>
+    </div>
+    <div class="mb-5">
+      <img src="https://thumbs2.imgbox.com/91/fd/jkpVIH4f_t.png" class="img-fluid" alt="Responsive image">
+      <h2>
+        Evento de login com 100 candy ao 6º dia, o evento terminará em 30/11/2022
+      </h2>
+    </div>
+    <div class="mb-5">
+      <img src="https://thumbs2.imgbox.com/d3/6b/Wi0wFHvv_t.png" class="img-fluid" alt="Responsive image">
+      <h2>
+        evento login, recompensa por 250k de inscrição de pré registro, o evento irá até o dia 30/11/2022.
+      </h2>
+    </div>
+    <hr>
+    <p>
+      AJUDE O JOGO A MELHORAR ENVIANDO SUA OPNIÃO.
+    </p>
+    <div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email.</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Asunto.</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Escreva sobre o assunto.</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+  </main>
+  <hr>
+  <footer>
+    <h2>CONTATOS</h2>
+    <div>
+      <a href="https://www.facebook.com/sausageman.pt">
+        <img width="35" src="https://marketexclusive.com/wp-content/uploads/2016/11/Facebook-Inc-1.jpg">
+      </a>
+      <p>
+        facebook
+      </p>
+    </div>
+    <div>
+      <a href="https://www.instagram.com/sausageman.pt/">
+        <img width="35"
+          src="https://www.gatewayspesach.org/wp-content/uploads/2019/08/600px-Instagram_logo_2016.svg_-540x540.png">
+      </a>
+      <p>
+        instagram
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
